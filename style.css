@@ -1,0 +1,19 @@
+:root{
+--link-color: #fff:
+}
+
+.global-header{
+    background-color: #FFFFFF; 
+}
+
+.global-header.main-nav a,
+.global-header.main-nav a:visited {
+    color:var(--link-color: #2E2F42);
+}
+
+.global-header.main-nav li{
+    list-style-type: none;
+}
+.global-header.main-nav a.active{
+
+}
