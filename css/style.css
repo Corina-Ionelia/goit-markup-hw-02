@@ -9,7 +9,7 @@
     color:var(--link-color);
 }
 .global-header.main-nav li{
-    list-style-type: none;
+    list-style-type:none;
 }
 .global-header.main-nav a .active{
 }
