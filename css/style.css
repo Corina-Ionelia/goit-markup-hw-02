@@ -1,12 +1,12 @@
 :root{
---link-color: #fff:
+--link-color:#fff;
 }
 .global-header{
-    background-color: #FFFFFF; 
+    background-color:#FFFFFF; 
 }
-.global-header.main-nav a,
+.global-header.main-nav a
 .global-header.main-nav a:visited {
-    color:var(--link-color)
+    color:var(--link-color);
 }
 .global-header.main-nav li{
     list-style-type: none;
