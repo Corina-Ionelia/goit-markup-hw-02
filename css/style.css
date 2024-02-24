@@ -4,7 +4,10 @@
   --heading-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: var( --heading-font-family)
 
+}
 * {
   font-family: var(--text-font-family);
   }
@@ -17,6 +20,7 @@
 .global-header .main-nav a: 
 ..global-header .main-nav a:visited {
   color: var(--link-color);
+   font-weight: 500;
 }
 
 ul {
@@ -24,6 +28,16 @@ ul {
 }
 
 .global-header .main-nav a:hover {
-  color: var(--link-color_hover);
+  color: var(link-color_hover);
   cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.global-header .social-section a 
+.global-header .social-section a: visited{
+ background-color: #434455;
+font-weight: 400; 
 }

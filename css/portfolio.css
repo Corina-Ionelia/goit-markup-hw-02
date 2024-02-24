@@ -17,6 +17,7 @@
 .global-header .main-nav a: 
 ..global-header .main-nav a:visited {
   color: var(--link-color);
+  font-weight: 500;
 }
 
 ul {
@@ -26,4 +27,8 @@ ul {
 .global-header .main-nav a:hover {
   color: var(--link-color_hover);
   cursor: pointer;
+}
+
+a{
+    text-decoration: none;
 }
