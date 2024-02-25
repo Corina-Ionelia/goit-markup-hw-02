@@ -1,12 +1,12 @@
 :root {
-  --link-color: #fff;
-  --link-color_hover: #2e2f42;
+  --link-color: #FFFFFF;
+  --link-color_hover: #060606;
   --heading-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
 }
 h1,h2,h3,h4,h5,h6 {
-    font-family: var( --heading-font-family)
-
+  font-family: var(--heading-font-family);
+  font-weight: 700;
 }
 * {
   font-family: var(--text-font-family);
@@ -16,28 +16,77 @@ h1,h2,h3,h4,h5,h6 {
 .global-header {
   background-color: #ffffff;
 }
-
-.global-header .main-nav a: 
-..global-header .main-nav a:visited {
-  color: var(--link-color);
-   font-weight: 500;
+.global-header .main-nav a,
+.global-header .main-nav a:visited {
+  color: var(--link-color_hover);
+  font-weight: 400;
+  width: 261px;
+  height: 24px;
+  top: 24px; 
+  left: 347px;
+  gap: 40px;
 }
 
 ul {
   list-style-type: none;
 }
-
-.global-header .main-nav a:hover {
-  color: var(link-color_hover);
+.global-header .nav a
+.global-header .nav a:hover {
+  color: var(--link-color_hover);
   cursor: pointer;
+
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.global-header .social-section a 
-.global-header .social-section a: visited{
- background-color: #434455;
-font-weight: 400; 
+.social-section a,
+.social-section a:visited {
+  color: var(--link-color_hover);
+  font-weight: 400;
+}
+
+.albastru {
+  content: "WEB";
+  color: #4D5AE5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.negru {
+  content: "Studio";
+  color: var(--link-color_hover);
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 0px; 
+  text-align: left;
+}
+
+
+.hero-section .hero-text{
+    color: var(--link-color);
+}
+
+.button-service {
+  background-color:#4D5AE5;
+  color: var(--link-color); 
+  border-color: var(link-color_hover);
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 16px;
+  lene-height: 24px; 
+  padding: 16px; 36px;
+  font-family: var(--text-font-familyo);
+  text-align: left;
+  width: Hug (169px);
+  height: Hug (56px);
+  top: 428px;
+  left: 636px;
+  gap: 10px;
+  cursor: pointer;
 }
