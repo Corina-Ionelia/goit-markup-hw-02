@@ -92,7 +92,7 @@ a {
   top: 428px;
   left: 636px;
   gap: 10px;
-  cursor: pointer;
+  cursor: pointer;}
 
 .hero-section {
   background-color: #2e2f42;
@@ -113,3 +113,138 @@ a {
   width: 1200px;
   display: flex;
 }
+
+Antet (header)
+
+
+.global-header {
+  background-color: #ffffff;
+  height: 1440px; 
+  height: 72px
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  border: 1px;
+  border-bottom: 1px;
+  solid #E7E9FC;
+}
+
+.main-nav ul {
+display: flex; 
+width: Hug (261px);
+height: Hug (24px);
+top: 24px;
+left: 347px;
+gap: 40px;
+
+
+}
+
+.main-nav a {
+  color: #060606;
+  text-decoration: none;
+  font-weight: 400;
+  width: Hug (261px);
+  height: Hug (24px);
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+
+}
+
+.social-section a {
+  color: #060606;
+  font-weight: 400;
+}
+
+Secțiunea de Căutare (Search Section)
+
+.hero-section {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center; 
+  padding: 120px 0;
+  width: 496px;
+height: 120px;
+top: 260px;
+left: 472px;
+}
+.container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  width: Hug (169px);
+height: Hug (56px);
+top: 428px;
+left: 636px;
+padding: 16px, 32px, 16px, 32px;
+border-radius: 4px;
+gap: 10px;
+}
+
+.hero-title {
+  margin-bottom: 20px; 
+  width: 496px;
+height: 120px;
+top: 260px;
+left: 472px;
+}
+
+.button-service {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 169px; 
+  height: 56px; 
+  top: 428px; 
+  left: 636px; 
+  padding: 16px 32px; 
+  box-shadow: 0px 4px 4px 0px rgba (0, 0, 0, 0.26); }
+
+sectiunea 1 imagini
+
+.image-section {
+  display: flex;
+  justify-content: space-between; 
+ width: 1128px;
+height: 104px;
+top: 792px;
+left: 156px;
+}
+
+.image-section ul {
+  list-style-type: none; 
+  padding: lene 
+  width: Fixed (264px);
+height: Hug (104px);
+top: 792px;
+left: 156px;
+gap: 8px;
+
+  
+}
+
+.image-section li {
+  width: 25%; 
+  padding: 20px; 
+  width: Fixed (264px);
+height: Hug (104px);
+top: 792px;
+left: 444px;
+gap: 8px;
+
+}
+
+.image-section h3 {
+  font-size: 18px; /* Mărimea fontului pentru titlurile secțiunilor */
+  margin-bottom: 10px; /* Adaugă un spațiu între titluri și paragrafe */
+}
+
+.image-section h4 {
+  font-size: 16px; /* Mărimea fontului pentru text */
+  color: #666666; /* Culorea textului */
+}
+
