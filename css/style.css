@@ -69,7 +69,13 @@ a {
 
 
 .hero-section .hero-text{
-    color: var(--link-color);
+color: var(--link-color);
+font-family: Roboto;
+font-size: 56px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 02em;
+text-align: center;
 }
 
 .button-service {
