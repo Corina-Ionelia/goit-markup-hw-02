@@ -19,35 +19,37 @@ h6 {
 * {
   font-family: var(--text-font-family);
 }
-
-.global-header {
-  background-color: var(--background-color);
-}
-
-.global-header .main-nav a,
-.global-header .main-nav a:visited {
-  color: var(--link-color_hover);
-  font-weight: 400;
-  width: 261px;
-  height: 24px;
-  top: 24px;
-  left: 347px;
-  gap: 40px;
-}
-
 ul {
   list-style-type: none;
 }
 
-.global-header .nav a,
-.global-header .nav a:hover {
-  color: var(--link-color_hover);
-  cursor: pointer;
-}
 
 a {
   text-decoration: none;
 }
+
+<!--Top linie -->
+
+.global-header .main-nav a,
+.global-header .main-nav a:visited {
+  color: var(--link-color_hover);
+  cursor: pointer;
+  background-color: var(--background-color);
+}
+.container {
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-block-start: 0;
+    width: 1200px;
+    justify-content: space-between; 
+}
+.buton.container 
+  display: flex;
+  
+  width:500px 
 
 .social-section a,
 .social-section a:visited {
@@ -102,32 +104,13 @@ a {
   color: var(--link-color);
 }
 
-.hero-text {
-  width: 496px;
-  height: 120px;
-  top: 260px;
-  left: 472px;
-}
-
 .cautare {
   width: 1200px;
   display: flex;
+  justify-content: space-between
 }
 
 Antet (header)
-
-
-.global-header {
-  background-color: #ffffff;
-  height: 1440px; 
-  height: 72px
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  border: 1px;
-  border-bottom: 1px;
-  solid #E7E9FC;
-}
 
 .main-nav ul {
 display: flex; 
@@ -169,26 +152,15 @@ height: 120px;
 top: 260px;
 left: 472px;
 }
-.container {
+.global-header{
   display: flex; 
-  flex-direction: column; 
   align-items: center;
-  width: Hug (169px);
-height: Hug (56px);
-top: 428px;
-left: 636px;
-padding: 16px, 32px, 16px, 32px;
-border-radius: 4px;
-gap: 10px;
+  width: Hug (1440px);
+height: Hug (72px);
+
 }
 
-.hero-title {
-  margin-bottom: 20px; 
-  width: 496px;
-height: 120px;
-top: 260px;
-left: 472px;
-}
+
 
 .button-service {
   background-color: #4d5ae5;
@@ -203,56 +175,3 @@ left: 472px;
   left: 636px; 
   padding: 16px 32px; 
   box-shadow: 0px 4px 4px 0px rgba (0, 0, 0, 0.26); }
-
-sectiunea 1 imagini
-
-.image-section {
-  display: flex;
-  justify-content: space-between; 
- width: 1128px;
-height: 104px;
-top: 792px;
-left: 156px;
-}
-
-.image-section ul {
-  list-style-type: none; 
-  padding: lene 
-  width: Fixed (264px);
-height: Hug (104px);
-top: 792px;
-left: 156px;
-gap: 8px;
-
-  
-}
-
-.image-section li {
-  width: 25%; 
-  padding: 20px; 
-  width: Fixed (264px);
-height: Hug (104px);
-top: 792px;
-left: 444px;
-gap: 8px;
-
-}
-
-.image-section h3 {
-  font-size: 18px; 
-  margin-bottom: 10px; 
-}
-
-.image-section h4 {
-  font-size: 16px; 
-  color: #666666; 
-}
-
-*{
-  box-sizeng: border-box;
-}
-
-body {
-width: 1440px;
-height: 72px;
-}
