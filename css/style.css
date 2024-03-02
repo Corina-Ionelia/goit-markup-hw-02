@@ -239,12 +239,20 @@ gap: 8px;
 }
 
 .image-section h3 {
-  font-size: 18px; /* Mărimea fontului pentru titlurile secțiunilor */
-  margin-bottom: 10px; /* Adaugă un spațiu între titluri și paragrafe */
+  font-size: 18px; 
+  margin-bottom: 10px; 
 }
 
 .image-section h4 {
-  font-size: 16px; /* Mărimea fontului pentru text */
-  color: #666666; /* Culorea textului */
+  font-size: 16px; 
+  color: #666666; 
 }
 
+*{
+  box-sizeng: border-box;
+}
+
+body {
+width: 1440px;
+height: 72px;
+}
