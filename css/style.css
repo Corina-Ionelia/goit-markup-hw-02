@@ -193,3 +193,12 @@ background: #2E2F42;
 .text-footer{
   color: #ffffff
   }
+
+.buton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  
+}
