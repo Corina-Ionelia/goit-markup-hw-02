@@ -15,7 +15,6 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: 700;
 }
-
 * {
   font-family: var(--text-font-family);
 }
@@ -23,13 +22,11 @@ ul {
   list-style-type: none;
 }
 
-
 a {
   text-decoration: none;
 }
 
 <!--Top linie -->
-
 .global-header .main-nav a,
 .global-header .main-nav a:visited {
   color: var(--link-color_hover);
@@ -68,10 +65,6 @@ display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
-
-
 
 .buton.container 
   display: flex;
@@ -141,8 +134,6 @@ display: flex;
   justify-content: space-between
 }
 
-
-
 .main-nav ul {
 display: flex; 
 width: Hug (261px);
@@ -151,9 +142,7 @@ top: 24px;
 left: 347px;
 gap: 40px;
 
-
 }
-
 .main-nav a {
   color: #060606;
   text-decoration: none;
@@ -165,7 +154,6 @@ gap: 40px;
   gap: 40px;
 
 }
-
 .social-section a {
   color: #060606;
   font-weight: 400;
@@ -179,10 +167,7 @@ Secțiunea de Căutare (Search Section)
   align-items: center;
   width: Hug (1440px);
 height: Hug (72px);
-
 }
-
-
 
 .button-service {
   background-color: #4d5ae5;
@@ -205,6 +190,6 @@ top: 2280px;
 background: #2E2F42;
   }
 
-  .text-footer{
-    color: #ffffff
+.text-footer{
+  color: #ffffff
   }
