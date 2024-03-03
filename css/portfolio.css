@@ -283,3 +283,15 @@ height: 420px;
 {
   width:1200px; !important;
 }
+
+.container-heading {
+    display: flex;
+}
+
+.buton {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
