@@ -122,13 +122,10 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 flex-wrap: nowrap;
-background-color: #2e2f42;
 width: 1440px;
 height: 600px;
 color: var(--link-color);
-background-image: url() #2E2F42; 
-
-
+background:#2e2f42;
 }
 
 .cautare {
