@@ -51,7 +51,7 @@ display: flex;
 .section-1 {
   display: flex;
   justify-content: center; 
-  gap: 30px; 
+  gap:30px; 
 }
 
 .section-2  {
@@ -75,6 +75,7 @@ display: flex;
 .social-section a:visited {
   color: var(--link-color_hover);
   font-weight: 400;
+  gap:40px
 }
 
 .albastru {
@@ -155,10 +156,9 @@ gap: 40px;
 
 }
 .social-section a {
-  color: #060606;
-  font-weight: 400;
-  width: 153px;
-height: 24px;
+color: #060606;
+font-weight: 400;
+gap: 40px;
 
 }
 
