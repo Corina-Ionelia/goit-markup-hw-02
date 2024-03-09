@@ -117,8 +117,8 @@ display: flex;
   gap: 10px;
   cursor: pointer;}
 
-.hero-section{
-display: flex;
+.hero-section
+{display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
@@ -126,8 +126,7 @@ flex-wrap: nowrap;
 width: 1440px;
 height: 600px;
 color: var(--link-color);
-background:#2e2f42;iniar-gradient (rgba(46, 47, 66, 0.7); url(./images/images/people-office.jpg)
-)
+background: url(./images/people-office.png) #2e2f42;
 }
 
 
