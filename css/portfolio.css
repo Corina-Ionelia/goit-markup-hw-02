@@ -42,13 +42,15 @@ a {
 .container-heading {
 display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin-block-start: 0;
     width: 1200px;
-    justify-content: space-between; 
+    justify-content: space-evenly;
+    lign-content: stretch;
 }
+
 
 .section-1 {
   display: flex;
@@ -68,11 +70,6 @@ display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
-
-
-
 .buton.container 
   display: flex;
   width:500px 
@@ -150,8 +147,6 @@ height: Hug (24px);
 top: 24px;
 left: 347px;
 gap: 40px;
-
-
 }
 
 .main-nav a {
@@ -163,7 +158,6 @@ gap: 40px;
   top: 24px;
   left: 347px;
   gap: 40px;
-
 }
 
 .social-section a {
@@ -196,7 +190,6 @@ height: Hug (72px);
   box-shadow: 0px 4px 4px 0px rgba (0, 0, 0, 0.26); }
 
   .antet-portofolio{
-    width: 1440px;
 height: 312px;
 top: 2280px;
 background: #2E2F42;
@@ -291,4 +284,8 @@ height: 420px;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+.container { 
+  margin: 0 auto;
+max-witdh:1200px;
 }
