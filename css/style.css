@@ -117,7 +117,7 @@ display: flex;
   gap: 10px;
   cursor: pointer;}
 
-.hero-section {
+.hero-section{
 display: flex;
 justify-content: center;
 align-items: center;
