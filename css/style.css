@@ -261,5 +261,12 @@ color: #F4F4FD;
 }
 
 .Our-Team-card{
-  
+
+}
+
+.social-media{
+display: flex;
+width: 208px;
+top: 2988px;
+color:#FFFFFF;
 }
