@@ -4,6 +4,9 @@
   --link-color_hover: #060606;
   --heading-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
+  --icon-background: #4D5AE5;
+  --icon-color:#F4F4FD;
+
 }
 
 h1,
@@ -66,6 +69,10 @@ display: flex;
   display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
 }
 
 .buton.container 
@@ -221,4 +228,38 @@ background: #2E2F42;
 .container { 
   margin: 0 auto;
 max-witdh:1200px;
+}
+
+.icons-list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px; 
+}
+
+.icons-list .icon svg {
+width: 20px;
+height: 20px;
+
+}
+.icons-list .icon {
+width: 40px;
+height: 40px;
+background: var(--icon-background);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--icon-color);
+}
+
+.icons-list .icon:hover,
+color: #F4F4FD;
+
+.icons-list .icon:focus {
+  color: #F4F4FD;
+}
+
+.Our-Team-card{
+  
 }
