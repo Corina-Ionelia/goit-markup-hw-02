@@ -253,15 +253,12 @@ align-items: center;
 color: var(--icon-color);
 }
 
-.icons-list .icon:hover,
+.icons-list .icon: ::hover{
 color: #F4F4FD;
-
-.icons-list .icon:focus {
-  color: #F4F4FD;
 }
 
-.Our-Team-card{
-
+.icons-list .icon: ::focus {
+  color: #F4F4FD;
 }
 
 .social-media{
