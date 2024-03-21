@@ -6,16 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Textul care va aparea in bara de sus a browserului-->
-
     <title>goit-markup-hw-04</title>
-
     <!--stiluri-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
-
     <!--link care css fisierul de stilizare trebuie sa fie-->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -24,9 +21,7 @@
     <!--Imagine cu logo, pentru scalabilitate (afisare corecta mobil/desktop) se recomanda sa fie
     format scalabil (svg), iar pentru a eficientiza imaginea se recomanda https://squoosh.app/,
     putem seta dimensiunile prin atribute (height, width)-->
-
     <!--partea de height se foloseste in partea de sus a pagini -->
-
     <header class="global-header" style="display: flex;">
         <div class="container">
             <div class="container-heading" style="display: flex;">
@@ -58,10 +53,20 @@
                     style="display: flex;background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png);background-size: cover;">
                     <div class="hero-section" style="display: flex;">
                         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                        <button class="button-service">Order Service</button>
+                        <nav>
+                            <button class="button-service" data-modal-open>Order Service</button>
+                        </nav>
                     </div>
+
                 </section>
                 <!--sectiunea 1 -->
+                <div class="modal is-hidden" data-modal>
+                    <div class="modal-content">
+                        <button class="close-btn" data-modal-close>&times;</button>
+                        Continut modal
+                    </div>
+                </div>
+
         </div>
         <div class="container">
             <section class="section-1">
@@ -378,7 +383,10 @@
             </div>
     </footer>
     </div>
-
+    <script>
+        feather.replice();
+    </script>
+    <script src="./js/modal.js"></script>
 
 </body>
 

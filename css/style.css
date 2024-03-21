@@ -135,7 +135,9 @@ display: flex;
   top: 428px;
   left: 636px;
   gap: 10px;
-  cursor: pointer;}
+  cursor: pointer;
+  outline: none;
+}
 
 .hero-section
 {display: flex;
@@ -402,4 +404,40 @@ footer a {
 .footer-icons .social-links:hover,
 .footer-icons .social-links:focus {
   background-color: var(--green-new-color);
+}
+
+.is-hidden{ 
+  display: none;
+}
+
+.modal {
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw; 
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5)
+}
+
+.modal-content{
+  margin: 0 auto;
+  padding:16px;
+  background-color: #fff;
+  width:50%;
+  height: 50%;
+  position: relative; 
+}
+
+.close-btn{
+  ackground-color: #E7E9FC;
+    border-radius: 50%;
+    color: #2E2F42;
+    outline: none;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-color: #0000001A;
 }
