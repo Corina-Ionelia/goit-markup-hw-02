@@ -72,12 +72,12 @@ display: flex;
   gap:30px; 
 }
 
-.section-2  {
-display: flex;
+.section-2 {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: space-around;
 }
-
 .section-3 
 {
   display: flex;
@@ -201,10 +201,10 @@ Secțiunea de Căutare (Search Section)
 
 
 .global-header{
-  display: flex; 
-  align-items: center;
-  width: Hug (1440px);
-height: Hug (72px);
+display: flex; 
+lign-items: center;
+width:1440px;
+height: 72px;
 }
 
 .button-service {
@@ -417,7 +417,7 @@ footer a {
 .is-hidden{ 
   display: none;
 }
-
+<!--elemete pozitionate -->
 .modal {
 display: none;
 position: fixed;
