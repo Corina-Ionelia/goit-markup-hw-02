@@ -136,7 +136,7 @@ opacity: 0px;
   font-family: var(--text-font-familyo);
   text-align: left;
   width: Hug (169px);
-  height: Hug (56px);
+  height: Hug (56 px);
   top: 428px;
   left: 636px;
   gap: 10px;
@@ -144,6 +144,9 @@ opacity: 0px;
   outline: none;
 }
 
+.a {
+transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .hero-section
 {display: flex;
 justify-content: center;
@@ -354,17 +357,21 @@ font-weight: 700;
     width: 100%;
     border: 3px solid brown;
 }
-.page-footer {
-  background-color: var(--accent-color-text);
-  display: flex;
-  justify-content: space-evenly;
-  width: 1440px;
-height: 312px;
-top: 2888px;
-gap: 0px;
-opacity: 0px;
 
+ .page-footer {
+    background-color: var(--accent-color-text);
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 312px;
+    top: 2888px;
+    gap: 0px;
+    opacity: 0px;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items
 }
+
 
 footer a {
   text-decoration: none;
@@ -420,24 +427,25 @@ footer a {
 <!--elemete pozitionate -->
 
 .is-hidden { 
-    visibility: hidden;
+    display: none;
+    transform: scale(1.05)
 }
 
 .modal {
-    position: fixed;
-    top: 80px;
-    width: 408px; 
-    height: 584px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 80px;
+width: 408px; 
+height: 584px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5);
 gap: 0px;
 border-radius: 4px;
-opacity: 0px;
 box-shadow: 0px 2px 1px 0px #00000033;
-box-shadow: 0px 1px 3px 0px #0000001F;
-box-shadow: 0px 1px 1px 0px #00000024;
+background-color: #303030 
+opacity:0.7; 
+transition: transform (cubic-bezier(0.4, 0, 0.2, 1))
 }
 
 .modal-content {
@@ -480,3 +488,4 @@ left: 540px;
 gap: 0px;
 opacity: 0px;
 }
+
