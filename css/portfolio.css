@@ -228,16 +228,7 @@ background: #2E2F42;
     color: #ffffff
   }
 
-  .botton-sectiunea-1
-  {
-    display: flex;
-flex-wrap: nowrap;
-width: Hug (586px);
-height: Hug (48px);
-top: 168px;
-left: 427px;
-gap: 24px;
-  }
+ 
 
   .sectiunea-cu-Row-1 {
   display: flex;
@@ -700,3 +691,90 @@ img, picture, video, canvas, svg {
 * {
     margin: 0;
 }
+
+----------------------------------------------------------------------
+.section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    padding-left: 16px;
+    margin: 0 auto;
+}
+.padding {
+    padding-top: 10px;
+}
+.our-team-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+}
+.ul {
+    list-style-type: none;
+    padding: 0;
+}
+.filter-button {
+    background-color: #f4f4fd;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    height: 48px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-decoration: none;
+}
+.filter-button-text {
+    color:#4d5ae5;
+}
+
+.button, select {
+    text-transform: none;
+}
+
+.filter-button {
+  background-color: #f4f4fd;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+  padding: 12px 24px;
+  height: 48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-button {
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-button:hover,
+.order-button:active,
+.filter-button:hover,
+.filter-button:active {
+  background-color: #4d5ae5;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+-----------------------------------------------------------------------------------------------------------

@@ -82,6 +82,8 @@ lign-content: stretch;
     align-items: center;
     align-content: space-around;
      padding-top: 120px;
+      gap:30px;
+
 }
 .section-3 {
 display: flex;
@@ -92,6 +94,7 @@ font-weight: 700;
 display: flex;
 justify-content: center;
 padding-top: 120px;
+ gap:30px;
 }
 
 .our-team {
@@ -199,8 +202,13 @@ flex-wrap: nowrap;
 width: 1440px;
 height: 600px;
 color: white;
+gap: 30px; 
 }
 
+
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------
 .hero-section-1 {
   display: flex;
   background-image: linear-gradient(
@@ -424,9 +432,14 @@ font-weight: 700;
     margin-top: 72px;
     gap: 30px;
     width: 100%;
-    border: 3px solid brown;
+}
+.card-section-3{
+  gap:50px; 
 }
 
+.card team-card{
+  border: 3px solid;
+}
 .logo {
     display: flex;
     text-transform: uppercase;
