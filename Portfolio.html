@@ -24,210 +24,217 @@
         putem seta dimensiunile prin atribute (height, width)-->
 
     <!--partea de height se foloseste in partea de sus a pagini -->
-    <div class="container">
+
+    <body>
+        <!--Imagine cu logo, pentru scalabilitate (afisare corecta mobil/desktop) se recomanda sa fie
+        format scalabil (svg), iar pentru a eficientiza imaginea se recomanda https://squoosh.app/,
+        putem seta dimensiunile prin atribute (height, width)-->
+        <!--partea de height se foloseste in partea de sus a pagini -->
         <header class="global-header" style="display: flex;">
-            <div class="container-heading" style="display: flex;">
-                <a href="index.html" class="logo">
-                    <span class="albastru">WEB</span>
-                    <span class="negru">Studio</span>
-                </a>
-                <nav class="main-nav" style="display: flex;">
-                    <ul>
-                        <li><a href="#Studio.html" class="active">Studio</a></li>
-                        <li><a href="Portfolio.html" class="active">Portfolio</a></li>
-                        <li><a href="Contacts.html">Contacts</a></li>
-                    </ul>
-                </nav>
-                <div class="social-section">
-                    <section class="social-section" style="display: flex;gap: 40px;">
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                        <a href="tel:+1100011111111">+11 (000) 111-11-11</a>
-                    </section>
+            <div class="container">
+                <div class="container-heading" style="display: flex;">
+                    <a href="index.html" class="logo">
+                        <span class="albastru">web</span>
+                        <span class="negru">studio</span>
+                    </a>
+                    <nav class="main-nav" style="display: flex;">
+                        <ul>
+                            <li><a href="./index.html" class="nav-link active">Studio</a></li>
+                            <li><a href="Portfolio.html" class="nav-link">Portfolio</a></li>
+                            <li><a href="nav-link" class="nav-link">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-section">
+                        <section class="social-section" style="display: flex;gap: 40px;">
+                            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <a href="tel:+1100011111111">+11 (000) 111-11-11</a>
+                        </section>
+                    </div>
                 </div>
             </div>
-    </div>
-    </header>
-    </div>
+        </header>
+        <!--parte cu butoane-->
+        <main>
+            <!--sectiunea cu butoane-->
+            <div class="container">
+                <section>
+                    <nav>
+                        <ul class="botton-sectiunea-1" ,=""
+                            style="display: flex;flex-direction: row;flex-wrap: nowrap;align-items: baseline;justify-content: center;">
+                            <li><button type="button"><a href="All">All</a></button></li>
+                            <li><button type="button"><a href="Web Site">Web Site</a></button></li>
+                            <li><button type="button"><a href="App">App</a></button></li>
+                            <li><button type="button"><a href="Design">Design</a></button></li>
+                            <li><button type="button"><a href="Marketing">Marketing</a></button></li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
 
+            <!-- Section with Row 1 -->
+            <div class="container">
+                <section class="section">
 
-    <!--parte cu butoane-->
-    <main>
-        <!--sectiunea cu butoane-->
-        <div class="container">
-            <section>
-                <nav>
-                    <ul class="botton-sectiunea-1" ,=""
-                        style="display: flex;flex-direction: row;flex-wrap: nowrap;align-items: baseline;justify-content: center;">
-                        <li><button type="button"><a href="All">All</a></button></li>
-                        <li><button type="button"><a href="Web Site">Web Site</a></button></li>
-                        <li><button type="button"><a href="App">App</a></button></li>
-                        <li><button type="button"><a href="Design">Design</a></button></li>
-                        <li><button type="button"><a href="Marketing">Marketing</a></button></li>
+                    <ul class="project-card-list">
+                        <!-- Project Card 1 -->
+                        <li class="project-card">
+                            <div class="img-overlay">
+                                <img src="images/Banking-App-Interface-Concept.jpg" alt="Banking-App-Interface-Concept"
+                                    width="360">
+                                <h2 class="card-content">Banking App Interface Concept</h2>
+                                <p class="card-content-information">App</p>
+                            </div>
+                            <div class="overlay">
+                                <p>text</p>
+                            </div>
+
+                        </li>
+
+                        <!-- Project Card 2 -->
+                        <li class="project-card">
+                            <img src="images/Cashless-Payment.jpg" alt="Cashless Payment" width="360">
+                            <h2 class="card-content">Cashless Payment</h2>
+                            <p class="card-content-information">Marketing</p>
+                        </li>
+
+                        <!-- Project Card 3 -->
+                        <li class="project-card">
+                            <img src="images/Meditation-App.jpg" alt="Meditation App" width="360">
+                            <h2 class="card-content">Cashless Payment</h2>
+                            <p class="card-content-information">Marketing</p>
+                        </li>
                     </ul>
-                </nav>
+            </div>
             </section>
-        </div>
-
-        <!-- Section with Row 1 -->
-        <div class="container">
-            <section class="section">
-
-                <ul class="project-card-list">
-                    <!-- Project Card 1 -->
-                    <li class="project-card">
-                        <div class="img-overlay">
-                            <img src="images/Banking-App-Interface-Concept.jpg" alt="Banking-App-Interface-Concept"
-                                width="360">
-                            <h2 class="card-content">Banking App Interface Concept</h2>
-                            <p class="card-content-information">App</p>
-                        </div>
-                        <div class="overlay">
-                            <p>text</p>
-                        </div>
-
-                    </li>
-
-                    <!-- Project Card 2 -->
-                    <li class="project-card">
-                        <img src="images/Cashless-Payment.jpg" alt="Cashless Payment" width="360">
-                        <h2 class="card-content">Cashless Payment</h2>
-                        <p class="card-content-information">Marketing</p>
-                    </li>
-
-                    <!-- Project Card 3 -->
-                    <li class="project-card">
-                        <img src="images/Meditation-App.jpg" alt="Meditation App" width="360">
-                        <h2 class="card-content">Cashless Payment</h2>
-                        <p class="card-content-information">Marketing</p>
-                    </li>
-                </ul>
-        </div>
-        </section>
-        </div>
+            </div>
 
 
-        <!-- Section with Row 2 -->
-        <div class="container">
-            <section class="section">
+            <!-- Section with Row 2 -->
+            <div class="container">
+                <section class="section">
 
-                <ul class="project-card-list">
-                    <!-- Project Card 1 -->
-                    <li class="project-card">
-                        <img src="images/Taxi Service.jpg" alt="Taxi Service" width="360">
-                        <h2 class="card-content">Taxi Service</h2>
-                        <p class="card-content-information">Marketing</p>
-                    </li>
+                    <ul class="project-card-list">
+                        <!-- Project Card 1 -->
+                        <li class="project-card">
+                            <img src="images/Taxi Service.jpg" alt="Taxi Service" width="360">
+                            <h2 class="card-content">Taxi Service</h2>
+                            <p class="card-content-information">Marketing</p>
+                        </li>
 
-                    <!-- Project Card 2 -->
-                    <li class="project-card">
-                        <img src="images/Screen Illustrations.jpg" alt="Screen Illustrations" width="360">
-                        <h2 class="card-content">Screen Illustrations</h2>
-                        <p class="card-content-information">Design</p>
-                    </li>
+                        <!-- Project Card 2 -->
+                        <li class="project-card">
+                            <img src="images/Screen Illustrations.jpg" alt="Screen Illustrations" width="360">
+                            <h2 class="card-content">Screen Illustrations</h2>
+                            <p class="card-content-information">Design</p>
+                        </li>
 
-                    <!-- Project Card 3 -->
-                    <li class="project-card">
-                        <img src="images/Online Courses.jpg" alt="Marketing" width="360">
-                        <h2 class="card-content">Online Courses</h2>
-                        <p class="card-content-information">Marketing</p>
-                    </li>
-                </ul>
-        </div>
-        </section>
-
-        </div>
-
-        <div class="container">
-            <!-- Section with Row 3 -->
-            <section class="section">
-
-                <ul class="project-card-list">
-                    <!-- Project Card 1 -->
-                    <li class="project-card">
-                        <img src="images/Instagram Stories Concept.jpg" alt="Instagram Stories Concept" width="360">
-                        <h2 class="card-content">Instagram Stories Concept</h2>
-                        <p class="card-content-information">Design</p>
-                    </li>
-
-                    <!-- Project Card 2 -->
-                    <li class="project-card">
-                        <img src="images/Organic Food.jpg" alt="Organic Food" width="360">
-                        <h2 class="card-content">Organic Food</h2>
-                        <p class="card-content-information">Web Site</p>
-                    </li>
-
-                    <!-- Project Card 3 -->
-                    <li class="project-card">
-                        <img src="images/Fresh Coffee.jpg" alt="Fresh Coffee" width="360">
-                        <h2 class="card-content">Fresh Coffee</h2>
-                        <p class="card-content-information">Web Site
-                        </p>
-                    </li>
-                </ul>
-        </div>
-        </section>
-
-        </div>
-
-    </main>
-    <div class="container">
-        <!-- Footer Section -->
-        <footer class="page-footer" style="box-sizing: border-box;" style="display: flex;">
-            <!--logo de tip text-->
-            <div class="last-container" style="box-sizing: border-box;">
-                <div class="footer-extras">
-                    <a href="index.html">
-                        <span class="albastru"> WEB </span>
-                        <span class="negru"> Studio
-                        </span>
-                    </a>
-                    <p class="text-footer">Increase the flow of customers and sales for your business
-                        with digital marketing growth solutions.
-                    </p>
-                </div>
+                        <!-- Project Card 3 -->
+                        <li class="project-card">
+                            <img src="images/Online Courses.jpg" alt="Marketing" width="360">
+                            <h2 class="card-content">Online Courses</h2>
+                            <p class="card-content-information">Marketing</p>
+                        </li>
+                    </ul>
+            </div>
+            </section>
 
             </div>
-            <div class="social-icons" style="box-sizing: border-box;" style="display: flex;">
-                <p class="social-media">Social media</p>
-                <!--instagram-->
-                <div class="icons-list">
-                    <a href="https://www.instagram.com/" target="_blank" class="icon" aria-label="instagram-link">
-                        <svg>
-                            <use href="./icons/symbol-defs.svg#icon-instagram">
-                            </use>
-                        </svg>
-                    </a>
-                    <!--twitter-->
-                    <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
-                        <svg>
-                            <use href="./icons/symbol-defs.svg#icon-twitter">
-                            </use>
-                        </svg>
-                    </a>
 
-                    <!--facebook-->
-                    <a href="https://facebook.com" target="blank" class="icon" aria-label="facebook-link">
-                        <svg>
-                            <use href="./icons/symbol-defs.svg#icon-facebook">
-                            </use>
-                        </svg>
-                    </a>
-                    <!--linkedin-->
-                    <a href="https://linkedin.com" target="blank" class="icon" aria-label="linkedinlink">
-                        <svg>
-                            <use href="./icons/symbol-defs.svg#icon-linkedin">
-                            </use>
-                        </svg>
-                    </a>
-                </div>
-        </footer>
-    </div>
-    </div>
-    <script>
-        feather.replice();
-    </script>
-    <script src="./js/modal.js"></script>
+            <div class="container">
+                <!-- Section with Row 3 -->
+                <section class="section">
 
-</body>
+                    <ul class="project-card-list">
+                        <!-- Project Card 1 -->
+                        <li class="project-card">
+                            <img src="images/Instagram Stories Concept.jpg" alt="Instagram Stories Concept" width="360">
+                            <h2 class="card-content">Instagram Stories Concept</h2>
+                            <p class="card-content-information">Design</p>
+                        </li>
+
+                        <!-- Project Card 2 -->
+                        <li class="project-card">
+                            <img src="images/Organic Food.jpg" alt="Organic Food" width="360">
+                            <h2 class="card-content">Organic Food</h2>
+                            <p class="card-content-information">Web Site</p>
+                        </li>
+
+                        <!-- Project Card 3 -->
+                        <li class="project-card">
+                            <img src="images/Fresh Coffee.jpg" alt="Fresh Coffee" width="360">
+                            <h2 class="card-content">Fresh Coffee</h2>
+                            <p class="card-content-information">Web Site
+                            </p>
+                        </li>
+                    </ul>
+            </div>
+            </section>
+
+            </div>
+
+        </main>
+        <div class="container">
+            <!-- Footer Section -->
+            <!--antet-->
+            <div class="container">
+                <footer>
+                    <div class="page-footer">
+                        <!--logo de tip text-->
+                        <div class="last-container" style="box-sizing: border-box;">
+                            <div class="footer-extras">
+                                <a href="index.html" class="logo">
+                                    <span class="albastru">web</span>
+                                    <span class="negru">studio</span>
+                                </a>
+                                <p class="text-footer">Increase the flow of customers and sales for your business
+                                    with digital marketing growth solutions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="social-icons" style="box-sizing: border-box;" style="display: flex;">
+                            <p class="social-media">Social media</p>
+                            <!--instagram-->
+                            <div class="icons-list">
+                                <a href="https://www.instagram.com/" target="_blank" class="icon"
+                                    aria-label="instagram-link">
+                                    <svg>
+                                        <use href="./icons/symbol-defs.svg#icon-instagram">
+                                        </use>
+                                    </svg>
+                                </a>
+                                <!--twitter-->
+                                <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
+                                    <svg>
+                                        <use href="./icons/symbol-defs.svg#icon-twitter">
+                                        </use>
+                                    </svg>
+                                </a>
+
+                                <!--facebook-->
+                                <a href="https://facebook.com" target="blank" class="icon" aria-label="facebook-link">
+                                    <svg>
+                                        <use href="./icons/symbol-defs.svg#icon-facebook">
+                                        </use>
+                                    </svg>
+                                </a>
+                                <!--linkedin-->
+                                <a href="https://linkedin.com" target="blank" class="icon" aria-label="linkedinlink">
+                                    <svg>
+                                        <use href="./icons/symbol-defs.svg#icon-linkedin">
+                                        </use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script>
+            feather.replice();
+        </script>
+        <script src="./js/modal.js"></script>
+
+    </body>
 
 </html>

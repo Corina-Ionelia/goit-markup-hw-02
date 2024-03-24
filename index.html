@@ -35,18 +35,18 @@
     format scalabil (svg), iar pentru a eficientiza imaginea se recomanda https://squoosh.app/,
     putem seta dimensiunile prin atribute (height, width)-->
     <!--partea de height se foloseste in partea de sus a pagini -->
-    <header class="global-header" style="display: flex;">
+    <header class="header " style="display: flex;">
         <div class="container">
             <div class="container-heading" style="display: flex;">
                 <a href="index.html" class="logo">
-                    <span class="albastru">WEB</span>
-                    <span class="negru">Studio</span>
+                    <span class="albastru">web</span>
+                    <span class="negru">studio</span>
                 </a>
                 <nav class="main-nav" style="display: flex;">
                     <ul>
-                        <li><a href="Studio.html">Studio</a></li>
-                        <li><a href="Portfolio.html">Portfolio</a></li>
-                        <li><a href="Contacts.html">Contacts</a></li>
+                        <li><a href="./index.html" class="nav-link active">Studio</a></li>
+                        <li><a href="Portfolio.html" class="nav-link">Portfolio</a></li>
+                        <li><a href="nav-link" class="nav-link">Contacts</a></li>
                     </ul>
                 </nav>
                 <div class="social-section">
@@ -66,8 +66,8 @@
                     style="display: flex; background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png);background-size: cover;">
                     <div class="hero-section" style="display: flex;">
                         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                        <a-service-btn><button class="button-service-a-service-btn" data-modal-open>Order
-                                Service</button></a-service-btn>
+                        <button type="button" class="button order-service-btn" data-modal-open>Order
+                            Service</button>
                     </div>
                     <div class="modal is-hidden" data-modal>
                         <div class="modal-content">
@@ -148,162 +148,181 @@
                 </section>
             </div>
             <!--sectiunea 3 -->
-            <div class="container">
+            <div class="container our-team">
                 <!--card-1-->
-                <section-3 style="display: flex;flex-direction: column;align-items: center;">
+                <div class="section-3" style="display: flex;flex-direction: column;align-items: center;">
                     <h2>Our Team</h2>
                     <ul style="display: flex;">
-                        <li><img src="./images/sectiunea-2-img-1.jpg" alt="img (0)" width="264">
-                            <h4>Guerrero</h4>
-                            <h6>Product Designer</h6>
-                            <!--instagram-->
-                            <div class="icons-list">
-                                <a href="https://www.instagram.com/" target="_blank" class="icon"
-                                    aria-label="instagram-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-instagram">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--twitter-->
-                                <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-twitter">
-                                        </use>
-                                    </svg>
-                                </a>
+                        <div class="card team-card">
+                            <li><img src="./images/sectiunea-2-img-1.jpg" alt="img (0)" width="264">
+                                <h4>Guerrero</h4>
+                                <h6>Product Designer</h6>
+                                <!--instagram-->
+                                <div class="icons-list">
+                                    <a href="https://www.instagram.com/" target="_blank" class="icon"
+                                        aria-label="instagram-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-instagram">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--twitter-->
+                                    <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </a>
 
-                                <!--facebook-->
-                                <a href="https://facebook.com" target="blank" class="icon" aria-label="facebook-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-facebook">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--linkedin-->
-                                <a href="https://linkedin.com" target="blank" class="icon" aria-label="linkedinlink">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-linkedin">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </li>
+                                    <!--facebook-->
+                                    <a href="https://facebook.com" target="blank" class="icon"
+                                        aria-label="facebook-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-facebook">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--linkedin-->
+                                    <a href="https://linkedin.com" target="blank" class="icon"
+                                        aria-label="linkedinlink">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+
 
                         <!--card-2-->
-                        <li><img src="./images/Sectiunea-2-img-2.jpg" alt="img (1)" width="264">
-                            <h4>Tom Ford</h4>
-                            <h6>Frontend Developer</h6>
-                            <!--instagram-->
-                            <div class="icons-list">
-                                <a href="https://www.instagram.com/" target="_blank" class="icon"
-                                    aria-label="instagram-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-instagram">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--twitter-->
-                                <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-twitter">
-                                        </use>
-                                    </svg>
-                                </a>
+                        <div class="card team-card">
+                            <li><img src="./images/Sectiunea-2-img-2.jpg" alt="img (1)" width="264">
+                                <h4>Tom Ford</h4>
+                                <h6>Frontend Developer</h6>
+                                <!--instagram-->
+                                <div class="icons-list">
+                                    <a href="https://www.instagram.com/" target="_blank" class="icon"
+                                        aria-label="instagram-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-instagram">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--twitter-->
+                                    <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </a>
 
-                                <!--facebook-->
-                                <a href="https://facebook.com" target="blank" class="icon" aria-label="facebook-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-facebook">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--linkedin-->
-                                <a href="https://linkedin.com" target="blank" class="icon" aria-label="linkedinlink">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-linkedin">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </li>
+                                    <!--facebook-->
+                                    <a href="https://facebook.com" target="blank" class="icon"
+                                        aria-label="facebook-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-facebook">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--linkedin-->
+                                    <a href="https://linkedin.com" target="blank" class="icon"
+                                        aria-label="linkedinlink">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
+
                         <!--card-3-->
-                        <li><img src="./images/sectiunea-2-img-3.jpg" alt="img (2)" width="264">
-                            <h4>Camila Garcia</h4>
-                            <h6>Marketing</h6>
-                            <!--instagram-->
-                            <div class="icons-list">
-                                <a href="https://www.instagram.com/" target="_blank" class="icon"
-                                    aria-label="instagram-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-instagram">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--twitter-->
-                                <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-twitter">
-                                        </use>
-                                    </svg>
-                                </a>
+                        <div class="card team-card">
+                            <li><img src="./images/sectiunea-2-img-3.jpg" alt="img (2)" width="264">
+                                <h4>Camila Garcia</h4>
+                                <h6>Marketing</h6>
+                                <!--instagram-->
+                                <div class="icons-list">
+                                    <a href="https://www.instagram.com/" target="_blank" class="icon"
+                                        aria-label="instagram-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-instagram">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--twitter-->
+                                    <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </a>
 
-                                <!--facebook-->
-                                <a href="https://facebook.com" target="blank" class="icon" aria-label="facebook-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-facebook">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--linkedin-->
-                                <a href="https://linkedin.com" target="blank" class="icon" aria-label="linkedinlink">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-linkedin">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </div>
-
-                        </li>
+                                    <!--facebook-->
+                                    <a href="https://facebook.com" target="blank" class="icon"
+                                        aria-label="facebook-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-facebook">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--linkedin-->
+                                    <a href="https://linkedin.com" target="blank" class="icon"
+                                        aria-label="linkedinlink">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
                         <!--card-4-->
-                        <li><img src="./images/sectiunea-2-img-4.jpg" alt="img (3)" width="264">
-                            <h4>Daniel Wilson</h4>
-                            <h6>Designer</h6>
-                            <!--instagram-->
-                            <div class="icons-list">
-                                <a href="https://www.instagram.com/" target="_blank" class="icon"
-                                    aria-label="instagram-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-instagram">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--twitter-->
-                                <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-twitter">
-                                        </use>
-                                    </svg>
-                                </a>
+                        <div class="card team-card">
 
-                                <!--facebook-->
-                                <a href="https://facebook.com" target="blank" class="icon" aria-label="facebook-link">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-facebook">
-                                        </use>
-                                    </svg>
-                                </a>
-                                <!--linkedin-->
-                                <a href="https://linkedin.com" target="blank" class="icon" aria-label="linkedinlink">
-                                    <svg>
-                                        <use href="./icons/symbol-defs.svg#icon-linkedin">
-                                        </use>
-                                    </svg>
-                                </a>
-                            </div>
-                        </li>
+
+                            <li><img src="./images/sectiunea-2-img-4.jpg" alt="img (3)" width="264">
+                                <h4>Daniel Wilson</h4>
+                                <h6>Designer</h6>
+                                <!--instagram-->
+                                <div class="icons-list">
+                                    <a href="https://www.instagram.com/" target="_blank" class="icon"
+                                        aria-label="instagram-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-instagram">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--twitter-->
+                                    <a href="https://twitter.com" target="blank" class="icon" aria-label="twitter-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-twitter">
+                                            </use>
+                                        </svg>
+                                    </a>
+
+                                    <!--facebook-->
+                                    <a href="https://facebook.com" target="blank" class="icon"
+                                        aria-label="facebook-link">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-facebook">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                    <!--linkedin-->
+                                    <a href="https://linkedin.com" target="blank" class="icon"
+                                        aria-label="linkedinlink">
+                                        <svg>
+                                            <use href="./icons/symbol-defs.svg#icon-linkedin">
+                                            </use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                        </div>
                     </ul>
-                </section-3>
+                </div>
             </div>
 
             <!--section-4-->
@@ -350,14 +369,13 @@
     <!--antet-->
     <div class="container">
         <footer>
-            <div class="page-footer" style="box-sizing: border-box;" style="display: flex;">
+            <div class="page-footer">
                 <!--logo de tip text-->
                 <div class="last-container" style="box-sizing: border-box;">
                     <div class="footer-extras">
-                        <a href="index.html">
-                            <span class="albastru"> WEB </span>
-                            <span class="negru"> Studio
-                            </span>
+                        <a href="index.html" class="logo">
+                            <span class="albastru">web</span>
+                            <span class="negru">studio</span>
                         </a>
                         <p class="text-footer">Increase the flow of customers and sales for your business
                             with digital marketing growth solutions.
