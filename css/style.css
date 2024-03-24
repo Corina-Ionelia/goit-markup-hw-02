@@ -916,3 +916,11 @@ border-radius: 4px 0px 0px 0px;
 opacity: 0px;
 
 }
+.E-mail-footer{
+  text-decoration: none;
+  background: #2E2F42;
+  text-decoration: none;
+  color:  #404bbf;
+  flex: 1;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
