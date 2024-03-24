@@ -691,3 +691,228 @@ footer a {
     top: 0;
     background-color: #fff;
 }
+--------------------------------------------------------------------------------------
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    gap: 16px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    border: none;
+    padding: unset;
+    gap: 8px;
+}
+.form-title {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.form-label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: var(--border-color);
+    gap: 4px;
+    font-size: 12px;
+}
+.input {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 32px;
+}
+.form-label > svg {
+    position: absolute;
+    top: 56%;
+    left: 16px;
+}
+
+.input {
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 32px;
+}
+input {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.form-label > svg {
+    position: absolute;
+    top: 56%;
+    left: 16px;
+}
+.form-icon {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    fill: #2e2f42;
+    width: 24px;
+    height: 24px;
+    padding: 2px 0px 2px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #8e8f99;
+    gap: 4px;
+    font-size: 12px;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    border-color: #8e8f99;
+    width: 360px;
+    padding: 8px 16px;
+}
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+.form-label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #8e8f99;
+    gap: 4px;
+    font-size: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    border: none;
+    padding: unset;
+    gap: 8px;
+}
+
+.privacy-policy {
+    display: flex;
+    border: none;
+    position: relative;
+    padding: unset;
+    color: #8e8f99;
+    font-size: 12px;
+    align-items: center;
+    gap: 8px;
+}
+
+.privacy-policy input {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+}
+.privacy-policy input, span, svg {
+    position: absolute;
+}
+input {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.privacy-policy span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+}
+
+.privacy-policy input, span, svg {
+    position: absolute;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.terms-text {
+    margin-left: 24px;
+}
+
+.privacy-policy {
+    display: flex;
+    border: none;
+    position: relative;
+    padding: unset;
+    color: #8e8f99;
+    font-size: 12px;
+    align-items: center;
+    gap: 8px;
+}
+
+form .button-position {
+    align-self: center;
+    margin-top: 8px;
+}
+.order-button {
+    background-color:#4d5ae5;
+    border: none;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 250ms
+     cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-text, .filter-button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-decoration: none;
+}
+.button-text {
+    color: var(--h1-color);
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+
+.subscribe {
+font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+    box-sizing: border-box;
+}
+.button-position{
+  width: Hug (165px)px;
+height: Hug (40px)px;
+top: 140px;
+left: 1116px;
+padding: 8px 24px 8px 24px;
+gap: 16px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+
+}
