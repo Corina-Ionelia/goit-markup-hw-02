@@ -32,6 +32,62 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: 700; /* definseti toate stilurile odata si ar trebui pe rand */
 }
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.page-wrapper {
+  background-color: var(--background-color);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Fonts */
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  color: var(--h1-color);
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  text-transform: capitalize;
+  color: var(--default-text-color);
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+  color: var(--default-text-color);
+  padding-top: 8px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 8px 0;
+  color: var(--text-color);
+}
 * {
   font-family: var(--text-font-family);
 }
