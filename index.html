@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Textul care va aparea in bara de sus a browserului-->
-    <title>goit-markup-hw-06</title>
+    <title>goit-markup-hw-07</title>
     <!--stiluri-->
     <style>
         .section-2 {
@@ -42,6 +42,7 @@
                     <span class="albastru">web</span>
                     <span class="negru">studio</span>
                 </a>
+                <i data-feather="menu" class="burger-menu"></i>
                 <nav class="main-nav" style="display: flex;">
                     <ul>
                         <li><a href="./index.html" class="nav-link active">Studio</a></li>
@@ -101,17 +102,18 @@
                                     </label>
                                 </fieldset>
                                 <fieldset class="privacy-policy">
-                                    <input class="checkbox" type="checkbox" name="accept-terms">
-                                    <span>
-                                        <svg class="checkmark">
-                                            <use href="./icons/symbol-defs.svg#icon-checkmark"></use>
-                                        </svg>
-                                    </span>
-                                    <p class="terms-text">
-                                        I accept the terms and conditions of the
-                                        <a href="https://www.termsfeed.com/live/e5af28e0-9b50-4525-a77b-c7f5672c2452">Privacy
-                                            Policy</a>.
-                                    </p>
+                                    <i class="checkbox-icon" type="checkbox" name="accept-terms">
+                                        <span>
+                                            <svg class="checkmark">
+                                                <use href="./icons/symbol-defs.svg#icon-checkmark"></use>
+                                            </svg>
+                                        </span>
+                                        <p class="terms-text">
+                                            I accept the terms and conditions of the
+                                            <a
+                                                href="https://www.termsfeed.com/live/e5af28e0-9b50-4525-a77b-c7f5672c2452">Privacy
+                                                Policy</a>.
+                                        </p>
                                 </fieldset>
                                 <button type="submit" class="button-position order-button button-text">
                                     Send
@@ -126,55 +128,60 @@
 
         <section>
             <!--sectiunea 1 -->
-            <div class="container">
-                <section class="section-1">
-                    <ul class="container-section-1" style="display: flex;" class="icon-section-1">
-                        <li>
-                            <svg>
-                                <use href="./icons/symbol-defs-1.svg#icon-astronaut">
-                                </use>
-                            </svg>
-                            <H3>Strategy</H3>
-                            <h4>goal is to identify the business
-                                problem to walk away with the perfect and creative solution. </h4>
+            <section class="one">
+                <div class="description-container">
+                    <ul>
+                        <li class="feature">
+                            <div class="vector-group">
+                                <svg class="vector">
+                                    <use href="./icons/symbol-defs-1.svg#icon-antenna"></use>
+                                </svg>
+                            </div>
+                            <h3>Strategy</h3>
+                            <p class="strategy">
+                                Our goal is to identify the business problem to walk away with
+                                the perfect and creative solution.
+                            </p>
                         </li>
-
-                        <li>
-                            <svg>
-                                <use href="./icons/symbol-defs-1.svg#icon-diagram">
-                                </use>
-                            </svg>
+                        <li class="feature">
+                            <div class="vector-group">
+                                <svg class="vector">
+                                    <use href="./icons/symbol-defs-1.svg#icon-clock"></use>
+                                </svg>
+                            </div>
                             <h3>Punctuality</h3>
-                            <h4>Bring the key message to the brand's audience for the best price within the shortest
-                                possible
-                                time.
-                            </h4>
+                            <p class="punctuality">
+                                Bring the key message to the brand's audience for the best price
+                                within the shortest possible time.
+                            </p>
                         </li>
-
-                        <li>
-                            <svg>
-                                <use href="./icons/symbol-defs-1.svg#icon-clock">
-                                </use>
-                            </svg>
-                            <h3>Diligence </h3>
-                            <h4> Research and confirm brands that present the strongest digital growth opportunities
-                                and
-                                minimize risk.
-                            </h4>
+                        <li class="feature">
+                            <div class="vector-group">
+                                <svg class="vector">
+                                    <use href="./icons/symbol-defs-1.svg#icon-diagram"></use>
+                                </svg>
+                            </div>
+                            <h3>Diligence</h3>
+                            <p class="diligence">
+                                Research and confirm brands that present the strongest digital
+                                growth opportunities and minimize risk.
+                            </p>
                         </li>
-
-                        <li>
-                            <svg>
-                                <use href="./icons/symbol-defs-1.svg#icon-Group">
-                                </use>
-                            </svg>
-                            <h3> Technologies</h3>
-                            <h4> Design practice focused on digital experiences. We bring forth a deep passion for
-                                problem-solving.</h4>
+                        <li class="feature">
+                            <div class="vector-group">
+                                <svg class="vector">
+                                    <use href="./icons/symbol-defs-1.svg#icon-astronaut"></use>
+                                </svg>
+                            </div>
+                            <h3>Technologies</h3>
+                            <p class="tehnologies">
+                                Design practice focused on digital experiences. We bring forth a
+                                deep passion for problem-solving.
+                            </p>
                         </li>
                     </ul>
-                </section>
-            </div>
+                </div>
+            </section>
             <!--sectunea 2 -->
             <div class="container">
                 <section class="section-2"
@@ -461,10 +468,12 @@
                     </div>
                 </div>
                 <div>
-                    <p class="subscribe"> Subscribe </p>
-                    <form class="E-mail-footer">
-                        <input name="email">
-                        <a href="mailto:E-mail">E-mail</a>
+                    <form name="signup_form" autocomplete="on" class="email-box" novalidate="">
+                        <label for="newsletter">
+                            <input class="email" type="email" name="email" id="newsletter" placeholder="E-mail"
+                                autocomplete="off">
+                        </label>
+
                     </form>
                 </div>
                 <div>
