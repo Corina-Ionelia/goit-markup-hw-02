@@ -35,14 +35,21 @@
     format scalabil (svg), iar pentru a eficientiza imaginea se recomanda https://squoosh.app/,
     putem seta dimensiunile prin atribute (height, width)-->
     <!--partea de height se foloseste in partea de sus a pagini -->
-    <header class="header " style="display: flex;">
+
+
+    <!-- Header: Mobile Navigation -->
+
+    <header class="header, mobile-header " style="display: flex;">
         <div class="container">
             <div class="container-heading" style="display: flex;">
                 <a href="index.html" class="logo">
                     <span class="albastru">web</span>
                     <span class="negru">studio</span>
                 </a>
-                <i data-feather="menu" class="burger-menu"></i>
+                <div class="mobile-header">
+
+
+                </div>
                 <nav class="main-nav" style="display: flex;">
                     <ul>
                         <li><a href="./index.html" class="nav-link active">Studio</a></li>
@@ -494,6 +501,7 @@
         feather.replice();
     </script>
     <script src="./js/js-modal.js"> </script>
+    <script src="./js/modal.js"></script>
 
 </body>
 

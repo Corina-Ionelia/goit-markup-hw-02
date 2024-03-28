@@ -1664,3 +1664,378 @@ form .button-position {
 button, select {
     text-transform: none;
 }
+
+
+.button-text, .filter-button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-decoration: none;
+}
+.button-text {
+    color: var(--h1-color);
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+
+.subscribe {
+font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+    box-sizing: border-box;
+}
+.button-position{
+  width: Hug (165px)px;
+height: Hug (40px)px;
+top: 140px;
+left: 1116px;
+padding: 8px 24px 8px 24px;
+gap: 16px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+
+}
+.E-mail-footer{
+  text-decoration: none;
+  background: #2E2F42;
+  text-decoration: none;
+  color:  #404bbf;
+  flex: 1;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+-----------------------------------------------------------------------------------------------------------------
+.privacy-policy {
+    display: flex;
+    border: none;
+    position: relative;
+    padding: unset;
+    color: #404bbf;  
+    font-size: 12px;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-icon {
+    cursor: pointer;
+    align-items: center;
+    position: relative; 
+}
+
+.checkbox-icon input[type="checkbox"] {
+    
+    width: 16px;
+    height: 16px;
+    margin-right: 8px; /* Spatierea intre checkbox si text */
+    position: absolute; /*butonul în partea de sus a containerului pentru a fi vizibil */
+    top: 0;
+    left: 0;
+    z-index: 1; /*  butonul este deasupra altor elemente */
+}
+
+.checkbox-icon > span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid; 
+    border-radius: 3px; 
+    position: relative; 
+}
+
+/* Stiluri pentru aspectul butonului atunci când este bifat */
+.checkbox-icon checked + span {
+    background-color: #404bbf; /* Culoarea de fundal a butonului atunci când este bifat */
+}
+
+/* Stilizăm aspectul iconiței */
+.checkbox-icon > span > svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px; 
+    height: 10px;
+    fill: #404bbf;    
+    outline: none;
+}
+.one {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.feature {
+    box-sizing: content-box;
+    width: 264px;
+    list-style: none;
+}
+.vector-group .vector {
+    width: 64px;
+    height: 64px;
+}
+.one ul {
+    display: flex;
+    gap: 47px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.vector-group {
+    box-sizing: content-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: var(--accent-color-cloud);
+    margin-bottom: 8px;
+    display: none; 
+}
+ .email {
+     background: #2e2f42;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid white;
+    margin: 16px 24px 0px 0px;
+    padding-left: 16px;
+}/* The above code is a comment in CSS. Comments in CSS are denoted by /* at the beginning and */ at
+the end. Comments are used to provide explanations or notes within the code that are not executed
+by the browser. */
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+/*--tema 7-- */
+----------------------------------------------------------------------------------------------------
+
+.container.adaptive {
+  max-width: 320px;
+}
+/* Stilizare mobil */
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+  
+/****************** Burger Menu ****************/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-toggle {
+  min-height: 40px;
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: var(--primary-color);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: black;
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 70px;
+}
+
+.mobile-menu .link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--accent-color-text);
+  gap: 40px;
+}
+
+.modal-contacts {
+  width: 353px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 270px;
+}
+
+.modal-contacts li {
+  list-style: none;
+}
+
+.tel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-description);
+}
+
+.mailto {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-description);
+}
+.modal-icon-list {
+  display: flex;
+  gap: 56px;
+  margin-top: 48px;
+  justify-content: center;
+}
+
+.modal-icon-list .icon svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--accent-color-cloud);
+}
+
+.modal-icon-list .icon {
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent-color-iris);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--icons-color);
+  transition: var(--transitions);
+}
+
+.modal-icon-list .icon:hover,
+.modal-icon-list .icon:focus {
+  background-color: var(--icons-color-hover);
+}
+.mobile-menu .link:hover,
+.mobile-menu .link:focus {
+  color: var(--button-color-filters);
+}
+.tel:hover,
+.mailto:hover,
+.tel:focus,
+.mailto:focus {
+  color: var(--accent-color-iris);
+}
+/******************* End Burger Menu********************/
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: #3f51b5;
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+}
+
+.mobile-menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mobile-menu .link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Stiluri tabletă */
+@media screen and (min-width: 900px) {
+  .container.adaptive {
+    max-width: 900px;
+    .vector-group
+  }
+}
+   
+  
+
+
+
+
+
+
+
+
+    /* Stiluri desktop */
+@media screen and (min-width: 1140px) {
+  .container.adaptive {
+    max-width: 1140px;
+  }
+}
+
+  
+
+
