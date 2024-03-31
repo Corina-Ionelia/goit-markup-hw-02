@@ -33,7 +33,10 @@ h6 {
   font-weight: 700; /* definseti toate stilurile odata si ar trebui pe rand */
 }
 
-
+.div {
+  width: 2px;
+  height: 2px;
+}
 .page-wrapper {
   background-color: var(--background-color);
 }
@@ -1079,169 +1082,33 @@ by the browser. */
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 /*--tema 7-- */
 ----------------------------------------------------------------------------------------------------
-@media screen and (min-width: 768px) {
-  .footer-container {
-    justify-content: flex-start;
-    padding-left: 108px;
-    gap: 24px;
-  }
-
-  .footer-form.footer-card {
-    flex-direction: row;
-    gap: 24px;
-  }
-
-  .footer-button {
-    padding-top: 40px;
-  }
+.container {
+  min-width: 320px;
 }
 
-@media screen and (min-width: 1158px) {
-  .footer-container {
-      padding-left: 0;
-      gap: 96px;
-  }  
+.container.responsive {
+  max-width: 1140px;
 }
 
-.footer .social-icon-holder {
-  justify-content: flex-start;
-  padding-top: 16px;
-  gap: 16px;
+/* Setăm lățimea de bază a containerului adaptiv */
+.container.adaptive {
+  max-width: 320px;
 }
 
-.social-icon-holder {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 8px;
-}
-
-.social-icon {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  width: 44px;
-  height: 44px;
-  background-color: var(--brand-color);
-  border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-icon:hover {
-  background-color: var(--social-icon-hover-color);
-}
-
-.form-group-footer {
-  display: flex;
-  flex-direction: column;
-  border: none;
-  padding: unset;
-  flex-basis: 100%;
-}
-
-.form-group-footer .input {
-  border: 1px solid var(--background-color);
-  border-radius: 4px;
-  min-width: 268px;
-  height: 40px;
-  margin-top: 16px;
-  background-color: transparent;
-  padding: 0 16px;
-}
-
-.form-group-footer .input::placeholder {
-  color: var(--background-color);
-  line-height: 2;
-  letter-spacing: 0.04em;
-}
-
-.footer-button {
-  width: 100%;
-}
-
-.subscribe-button {
-  display: flex;
-  justify-content: center;
-  background-color: var(--brand-color);
-  border: none;
-  border-radius: 4px;
-  padding: 0;
-  width: 165px;
-  height: 40px;
-  gap: 16px;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-text-subscribe,
-.button-icon {
-  display: inline-flex;
-  align-items: center;
-  height: 100%;
-}
-
-.subscribe-icon {
-  width: 24px;
-  height: 20px;
-}
-
-@media screen and (max-width: 767px) {
-  .footer-container {
-    justify-content: center;
-  }
-
-  .form-group-footer .input {
-    min-width: 398px;
-  }
-
-  .footer-card-title,
-  .footer-button,
-  .footer .social-icon-holder {
-    display: flex;
-    justify-content: center;
-  }
-} 
-
-/* Portfolio page */
-.filters-section {
-  padding: 48px 0;
-}
-
-/* .padding {
-  padding-top: 96px;
-} */
-
-.buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.section.project-section {
-  /* padding-top: 72px; */
-  padding-bottom: 120px;
-}
-
-@media screen and (max-width: 768px) {
-  .filters-section {
-      padding: 64px 0;
-    }
-
-  .filter-button {
-    height: 40px;
+@media screen and (min-width: 600px) {
+  .container.adaptive {
+    max-width: 600px;
   }
 }
 
-@media screen and (min-width: 1158px) {
-  .filters-section {
-    padding: 100px 0 72px;
+@media screen and (min-width: 900px) {
+  .container.adaptive {
+    max-width: 900px;
   }
+}
 
-  .filter-button {
-    height: 48px;
+@media screen and (min-width: 1140px) {
+  .container.adaptive {
+    max-width: 1140px;
   }
 }
